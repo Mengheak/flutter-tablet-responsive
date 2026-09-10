@@ -255,6 +255,7 @@ Stack(
 **⚠️ អន្ទាក់**
 - កូនដែល**មិន**ត្រូវបានរុំដោយ `Positioned` ហៅថា *non-positioned* — ទំហំ `Stack` កំណត់ដោយកូនទាំងនេះ។ បើកូនទាំងអស់ជា `Positioned` `Stack` នឹងតូចបំផុតតាមដែលអាច។
 - `Positioned` ត្រូវតែជាកូន**ផ្ទាល់**របស់ `Stack`។ រុំវាដោយ `Padding` មុន → crash។
+- Like `Positioned` must be direct child of `Stack`
 
 ---
 
